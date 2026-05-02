@@ -13,43 +13,101 @@
 </head>
 
 <body>
+    <!--NAVBAR CON ENLACES A LAS DEMAS PAGINAS-->
     <header class="bg-dark text-white text-center p-3">
         <h2> Instituto Politecnico Formosa</h2>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">IPF</a>
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">IPF</a>
 
-                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-                    <span class=" navbar-toggler-icon"></span>
-                </button>
+            <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class=" navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse" id="menu">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="institucional.html">Institucional</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="carreras.html">Carreras</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>    
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="institucional.html">Institucional</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carreras.html">Carreras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
+    </header>
+   
     <main class="container mt-4">
-        <section>
-            <h2>Bienvenidos</h2>
-            <p>bienvenido al sitio oficial del instituto politecnico formosa</p>
+        <section class="text-center mt-4">
+            <h2 class="mb-3">Formacion tecnica para el futuro</h2>
+            <p class="lead">
+                El Instituto Politécnico Formosa es una institución dedicada a la formación técnica y tecnológica,
+                orientada al desarrollo productivo y a la innovación.
+            </p>
+        </section>
+
+        <!-- SECCION CON INFORMACION DESTACADA-->
+
+        <section class="mt-5">
+            <h2 class="text-center mb-4">Información Destacada</h2>
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/img/img1.jpg" class="card-img-top" alt="Carreras">
+                        <div class="card-body">
+                            <h5 class="card-title">Carreras</h5>
+                            <p class="card-text">Conocé nuestra oferta académica.</p>
+                            <p>
+                                Tecnicaturas Superiores vigentes: Mecatrónica, Desarrollo de Software
+                                Multiplataforma, Química Industrial y Telecomunicaciones. Cada una tiene cupos limitados
+                                y cursos introductorios </p>
+                            <a href="carreras.html" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/img/img2.jpg" class="card-img-top" alt="Institucional">
+                        <div class="card-body">
+                            <h5 class="card-title">Institucional</h5>
+                            <p class="card-text">Información sobre nuestra historia y misión.</p>
+                            <p>Comprometidos con la educación técnica y el crecimiento de la comunidad formoseña</p>
+                            <a href="institucional.html" class="btn btn-primary">Ver más</a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/img/img3.jpg" class="card-img-top" alt="Contacto">
+                        <div class="card-body">
+                            <h5 class="card-title">Contacto</h5>
+                            <p class="card-text">Estamos a tu disposición para consultas, inscripciones y orientación
+                                académica.</p>
+                            <p>Comunicate con nosotros para más información y asesoramiento sobre carreras y servicios
+                            </p>
+                            <a href="contacto.html" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </section>
     </main>
     <footer class="bg-dark text-white text-center p-3 mt-4">
-        <p>@ IPF</p>
+        <p>@ Instituto politecnico formosa</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
