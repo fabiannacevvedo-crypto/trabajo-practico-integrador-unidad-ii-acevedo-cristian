@@ -1,0 +1,40 @@
+:root {
+    --azul: #0d6efd;
+    --oscuro: #212529;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--oscuro);
+    color: white;
+}
+
+footer {
+    background-color: var(--oscuro);
+    color: white;
+}
+
+h2, h3, h4, h5 {
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.nav-link:hover {
+    color: var(--azul) !important;
+}
